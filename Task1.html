@@ -11,24 +11,34 @@
         }
         .container{
             width: 500px;
-            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
         }
         .box{
-            width: 150px;
-            height: 150px;
+            width: 130px;
+            height: 130px;
             background-color: teal;
             margin: 1px;
             border-radius: 10px;
             transition: all 0.5s;
             border: 10px teal solid;
-            
-           
+            box-shadow: 1px 2px 5px black ;
+          
         }
         .box:hover{
             border: 10px turquoise solid;
          
         }
-        
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: cadetblue;
+          
+        }
         .Welcome{
             background-color: tomato;
             width: 300px;
